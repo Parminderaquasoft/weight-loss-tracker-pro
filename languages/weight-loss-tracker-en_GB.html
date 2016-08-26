@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <style>
+
+
+/*
+Based on Minimal CSS (minimalcss.com) under the MIT license.
+*/
+
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+body { background-color: #fff; color: #333;	font: 14px/20px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; margin-bottom: 20px; }
+
+nav ul { margin: 0; }
+nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
+nav ul li a { color: #333; }
+
+.container { position: relative; max-width: 90%; margin: 0 auto; }
+
+footer { border-top:1px solid #ccc; font-size:11px; line-height:26px; color:#999; }
+footer a { color:#999999; }
+footer a:hover { color:#105CB6; }
+footer ul li { display:inline; list-style:none; padding-left:20px; }
+
+/* Typography */
+a { color: #105CB6; text-decoration: none; }
+a:hover, a:focus { color: #105CB6; text-decoration: underline; }
+a:active { color: #105CB6; }
+
+h1 { font-size: 24px; line-height: 20px; margin: 10px 0; }
+h2 { font-size: 20px; line-height: 20px; margin: 10px 0; }
+h3 { font-size: 16px; line-height: 20px; margin: 10px 0; }
+h4 { font-size: 14px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 12px; line-height: 20px; margin: 10px 0; }
+h5 { font-size: 10px; line-height: 20px; margin: 10px 0; }
+h1,h2,h3,h4,h5,h6 { color: #333; }
+
+p { margin-bottom: 10px; }
+
+.float-left     { float: left; }
+.float-right    { float: right; }
+img.float-left  { float: left; margin: 0 20px 20px 0; }
+img.float-right { float: right; margin: 0 0 20px 20px; }
+img.center      { margin: 0 auto; display: block; }
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Misc */
+hr { background-color: #ccc; border: 0px; color: #ccc; height: 1px; margin: 8px 0 20px 0; }
+pre, code { background:#E0ECF6; display:block; margin-bottom: 20px; padding:10px; }
+
+blockquote { margin: 10px 10px 20px; padding: 9px; background-color: #f8f8f8; color: #666; border-left: 5px solid #ddd; font: 14px/20px Georgia, Times, serif; quotes: "\201C" "\201D"; }
+blockquote p { margin: 0; }
+blockquote:before { content: open-quote; font-weight: bold; }
+blockquote:after  { content: close-quote; font-weight: bold; }
+
+/* List */
+ul { list-style-position:inside; }
+ol { list-style-position:inside; }
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th { font-weight: bold; }
+tfoot { font-style: italic; }
+
+/* Metadata part */
+
+.metadata {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+table.metadata td {
+  padding-right: 20px;
+}
+
+.stats {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.graph {
+  width: 100%;
+}
+.graph div { float: left; }
+.graph div:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.graph div:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.percent-done    { background-color: #71DD46; height: 10px; }
+.percent-fuzzy   { background-color: #FFD300; height: 10px; }
+.percent-untrans { background-color: #F1F1F1; height: 10px; }
+.legend {
+  font-size: smaller;
+  color: #aaa;
+  padding-top: 12px;
+  text-align: center;
+}
+
+/* Translations */
+table.translations {
+  width: 100%;
+  table-layout: fixed;
+}
+table.translations th, table.translations td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #E1E1E1;
+}
+table.translations th {
+  text-align: left;
+}
+table.translations th:first-child, table.translations td:first-child { padding-left: 0; }
+table.translations th:last-child, table.translations td:last-child { padding-right: 0; }
+
+.with-comments td {
+  border-bottom: none !important;
+}
+tr.comments div {
+  float: right;
+  max-width: 75%;
+  font-size: smaller;
+  color: #aaa;
+}
+tr.comments div p:last-child { margin-bottom: 0; }
+
+.fuzzy .tra {
+  color: #a9861b;
+}
+
+.msgctxt {
+  font-size: smaller;
+  color: #6d8e13;
+}
+
+
+  </style>
+</head>
+<body>
+<div class='container'>
+<table class='metadata'>
+<tr><td>Language:</td><td>English (United Kingdom)</td></tr>
+</table>
+<div class='stats'>
+  <div class='graph'>
+    <div class='percent-done' style='width: 28.0303%'>&nbsp;</div>
+    <div class='percent-fuzzy' style='width: 2.27273%'>&nbsp;</div>
+    <div class='percent-untrans' style='width: 69.697%'>&nbsp;</div>
+  </div>
+  <div class='legend'>Translated: 37 of 132 (28 %)  •  Remaining: 95  </div>
+</div>
+<table class='translations'>
+  <thead>
+    <tr>
+      <th>Source text — English</th>
+      <th>Translation — English (United Kingdom)</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr class='i'>
+<td class='src'  lang='en'>
+Date</td>
+<td class='tra'  lang='en-GB'>
+Date</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Weight</td>
+<td class='tra'  lang='en-GB'>
+Weight</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Notes</td>
+<td class='tra'  lang='en-GB'>
+Notes</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+lbs</td>
+<td class='tra'  lang='en-GB'>
+lbs</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Kg</td>
+<td class='tra'  lang='en-GB'>
+Kg</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Target</td>
+<td class='tra'  lang='en-GB'>
+Your current target is</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You have modified data. Please refresh page.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Target Weight</td>
+<td class='tra'  lang='en-GB'>
+Target Weight</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Add a new weight</td>
+<td class='tra'  lang='en-GB'>
+Add a new weight</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your target weight is</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Stones</td>
+<td class='tra'  lang='en-GB'>
+Stones</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Pounds</td>
+<td class='tra'  lang='en-GB'>
+Pounds</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Set Target</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Save Entry</td>
+<td class='tra'  lang='en-GB'>
+Save Entry</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter a between 1-14 for pounds</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter a valid figure for pounds</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter a valid figure for Kg</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter a valid figure for Stones</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please enter a valid date</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Please confirm you wish to delete ALL your weight history</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+St</td>
+<td class='tra'  lang='en-GB'>
+St</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The following MySQL tables are missing for this plugin</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+View all weeks</td>
+<td class='tra'  lang='en-GB'>
+View all weeks</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+View Week</td>
+<td class='tra'  lang='en-GB'>
+View Week</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+to</td>
+<td class='tra'  lang='en-GB'>
+to</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Settings</td>
+<td class='tra'  lang='en-GB'>
+ Settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Manage User Data</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Get Pro Version</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Help</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Saved!</td>
+<td class='tra'  lang='en-GB'>
+Saved!</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+An error occurred while saving your data!</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No user specified (hash)</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No user specified</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+st</td>
+<td class='tra'  lang='en-GB'>
+st</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+You need to be logged in to record your weight.</td>
+<td class='tra'  lang='en-GB'>
+You need to be logged in to record your weight.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Login now</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your settings have been saved!</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your weight history has been deleted!</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Overview</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chart / Add Weight</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In Detail</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+View all recorded weights</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Choose weight units, date format, etc</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+In a chart</td>
+<td class='tra'  lang='en-GB'>
+In a chart</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+A pretty graph shall appear once you have recorded several weights.</td>
+<td class='tra'  lang='en-GB'>
+A pretty graph shall appear once you have recorded several weights.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Weight History</td>
+<td class='tra'  lang='en-GB'>
+Weight History</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+You haven't entered any weight data yet.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ Instructions</td>
+<td class='tra'  lang='en-GB'>
+ Instructions</td>
+</tr>
+<tr class='i fuzzy'>
+<td class='src'  lang='en'>
+Place the tag [weight-loss-tracker] on a given page and the user is presented with a form to enter a date, weight and notes for that entry. When the person saves their entry the data table and graph is refreshed.</td>
+<td class='tra'  lang='en-GB'>
+Place the tag [weightlosstracker] on a given page and the user is presented with a form to enter a date, weight and notes for that entry. When the person saves their entry the data table and graph is refreshed.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+You do not have sufficient permissions to access this page.</td>
+<td class='tra'  lang='en-GB'>
+You do not have sufficient permissions to access this page.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Get </td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Get Weight Loss Tracker Pro for</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ and have the following features listed below.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+In case you need, your &lt;strong&gt;Site Hash&lt;/strong&gt;</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Upgrade now for</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter License Key</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Got an existing license key? If so, enter it below</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Enter license key</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Add License</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Features of Pro version</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Below is a list of the intended features of the Pro version:</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Rebuild them now</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+ Settings</td>
+<td class='tra'  lang='en-GB'>
+ Settings</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+General</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+General settings</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chart</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Chart styling and config</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Weight Units</td>
+<td class='tra'  lang='en-GB'>
+Weight Units</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Stones &amp; Pounds</td>
+<td class='tra'  lang='en-GB'>
+Stones &amp; Pounds</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+You can specify whether to display weights in Kg, Stones &amp; Pounds or just Pounds. Please note: The graph will be displayed in Pounds if "Stones &amp; Pounds" is selected.</td>
+<td class='tra'  lang='en-GB'>
+You can specify whether to display weights in Kg, Stones &amp; Pounds or just Pounds. Please note: The graph will be displayed in Pounds if "Stones &amp; Pounds" is selected.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Allow target weights?</td>
+<td class='tra'  lang='en-GB'>
+Allow target weights?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+No</td>
+<td class='tra'  lang='en-GB'>
+No</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Yes</td>
+<td class='tra'  lang='en-GB'>
+Yes</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+If enabled, a user is allowed to enter a target weight. This will be displayed as a horizontal bar on the line chart.</td>
+<td class='tra'  lang='en-GB'>
+If enabled, a user is allowed to enter a target weight. This will be displayed as a horizontal bar on the line chart.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+UK or US Date format?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+UK (DD/MM/YYYY)</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+US (MM/DD/YYYY)</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Specify what format dates should be displayed in (i.e. UK or US format)</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Allow decimal places?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If enabled, Decimal weight entries will be allowed in Kg or Pounds mode.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display data in tabs?</td>
+<td class='tra'  lang='en-GB'>
+Display data in tabs?</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+If enabled, "Weight History" and "Target Weight" will be displayed on sepearate tabs.</td>
+<td class='tra'  lang='en-GB'>
+If enabled, "Weight History" and "Target Weight" will be displayed on sepearate tabs.</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Allow user settings</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Allow your users to select their own weight unit, date format and remove all their data.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Disable plugin CSS?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If you wish to style the forms in your own way, you can use this option to disable WLT's style sheets.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Default chart type</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Line Chart</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Bar Chart</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+If enabled, "Allows points and labels to be displayed on graph.</td>
+<td class='tra'  lang='en-GB'>
+If enabled, "Allows points and labels to be displayed on graph.</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Display points on graph?</td>
+<td class='tra'  lang='en-GB'>
+Display points on graph?</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Graph: Weight colour?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If enabled, enter a HEX colour code to use for the Weight history line on graph.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Graph: Weight fill colour?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If enabled, enter a HEX colour code to use forthe shading underneath the Weight history line on graph. Line charts only.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Graph: Target line colour?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+If enabled, enter a HEX colour code to use for the Target line on graph.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Delete existing data</td>
+<td class='tra'  lang='en-GB'>
+Delete existing data</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+Remove ALL user data</td>
+<td class='tra'  lang='en-GB'>
+Remove ALL user data</td>
+</tr>
+<tr class='i'>
+<td class='src'  lang='en'>
+You can use the following button to remove all user data currently stored by the plugin. &lt;strong&gt;All weight entries for every user will be lost!&lt;/strong&gt;</td>
+<td class='tra'  lang='en-GB'>
+You can use the following button to remove all user data currently stored by the plugin. &lt;strong&gt;All weight entries for every user will be lost!&lt;/strong&gt;</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Are you sure you wish to remove all user data?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Widgets.&lt;/strong&gt; Widgets that allow you to display the graph and quick weight entry form within any widget area.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Chart and form Shortcodes.&lt;/strong&gt; That allow you to display the graph and quick weight entry form by placing a shortcode on any post or page.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Text Shortcodes.&lt;/strong&gt; Additional shortcodes for earliest and most recent dates entered.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Admin: View / Edit user data&lt;/strong&gt;. Admin will be able to view, edit and delete existing user data.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;User preferences&lt;/strong&gt;. If enabled, the user will be able to select which unit they wish to store their weight in Metric or Imperial. They will also be able to specify date format and clear all their weight data.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Bar Charts&lt;/strong&gt;. Fancy something different to a line chart? The plugin will also support Bar Charts.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Decimals&lt;/strong&gt;. Decimals will be allowed weight in Pounds only or Kg modes.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Delete existing entry&lt;/strong&gt;. A logged in user will be able to delete an existing weight entry.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Better Tables.&lt;/strong&gt;. Data tables in front end and admin will support paging and sorting.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+&lt;strong&gt;Admin: Extra Settings&lt;/strong&gt;. Extra settings to customise the plugin will be added e.g. number of plot points on graph, rows per page, etc.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No weight data was found for the specified user.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Which unit would you like to record your weight in:</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Display dates in the following formats:</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Save Settings</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+The button below allows you to clear your existing weight history. Confirm:</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Delete</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Weight Loss Tracker - Chart</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Display a chart to see your current progress.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Weight Loss Tracker</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Title</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Type</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Maximum number of plot points on chart</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+ID of user (leave blank to show chart for current user)</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Note: By default, the chart will be displayed in the weight unit chosen by the logged in user. If not specfied the plugin default will be used.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Weight Loss Tracker - Form</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Display a quick entry form for logged in users to record their weight for today.</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Your weight today</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Allow user to specify a date?</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+No. Automatically set to today's date</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+<tr class='i untrans'>
+<td class='src'  lang='en'>
+Allow user to specify a date</td>
+<td class='tra'  lang='en-GB'>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,251 @@
+.ws-ls-tabs
+{
+	margin:30px;
+}
+.ws-ls-inner-form p
+{
+  font-size: 1.0em;
+	margin-bottom: 5px;
+}
+.ws_ls_title
+{
+	margin-top: 0px !important;
+	margin-bottom: 15px !important;
+
+}
+.we-ls-weight-form
+{
+	width: 100%;
+
+}
+.we-ls-weight-form input[type=number], .we-ls-weight-form input[type=text], .we-ls-weight-form textarea, .we-ls-weight-form select,
+.we-ls-datepicker, .ws-ls-select
+{
+	width:98% !important;
+	border: solid 1px #c1c1c1;
+	transition: box-shadow 0.3s, border 0.3s;
+    padding: 0px 0px 0px 5px;
+}
+.we-ls-weight-form input[type=number].focus, .we-ls-weight-form input[type=text].focus, .we-ls-weight-form select.focus,
+.we-ls-datepicker.focus, .ws-ls-select.focus, .ws-ls-user-pref-form input, .ws-ls-user-pref-form select, .ws-ls-user-delete-all select {
+  border: solid 1px #707070;
+    box-sizing: content-box !important;
+}
+.we-ls-weight-form input[type=number], .we-ls-weight-form input[type=text], .we-ls-weight-form select, .we-ls-weight-form .we-ls-datepicker,
+.we-ls-weight-form .ws-ls-select, .ws-ls-user-pref-form input, .ws-ls-user-pref-form select, .ws-ls-user-delete-all select
+{
+	height: 30px;
+}
+.we-ls-weight-form input[type=number], .we-ls-weight-form input[type=text], .we-ls-weight-form select, .we-ls-weight-form .we-ls-datepicker, .we-ls-weight-form .ws-ls-select,
+ .ws-ls-user-pref-form input, .ws-ls-user-pref-form select, .ws-ls-user-delete-all select
+{
+	height: 30px;
+
+}
+.ws-ls-user-pref-form select, .ws-ls-user-delete-all select
+{
+  width:100%;
+	margin-bottom: 20px;
+}
+ .ws-ls-user-pref-form form
+{
+	margin-bottom: 20px;
+}
+.we-ls-weight-form textarea
+{
+	padding:5px;
+}
+.ws-ls-error-summary
+{
+	width: 100%;
+	padding-left: 30px;
+	color: red;
+	display:none;
+}
+.ws-ls-error-summary ul
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+.ws-ls-error-text
+{
+  color: red;
+  font-weight: bold;
+}
+.ws-ls-notice
+{
+	font-weight: bold;
+}
+.ws-ls-success
+{
+    color: green;
+}
+
+.dataTables_filter input
+{
+	width: 100px;
+	padding:0px;
+}
+.dataTables_length
+{
+	margin: 10px
+}
+.dataTables_filter
+{
+	margin: 10px
+}
+
+.ws-ls-table-options img
+{
+	width: 15px;
+	height: 15px;
+}
+.ws-ls-advanced-data-table
+{
+	table-layout: auto !important;
+}
+.ws-ls-advanced-data-table th
+{
+	padding: 1px 1px 1px 3px !important;
+}
+.ws-ls-hide
+{
+	display: none !important;
+}
+.ws-ls-notice-of-refresh
+{
+	width: 100%;
+	text-align: center;
+	margin-bottom:3px;
+	font-size:0.8em;
+}
+.ws-ls-tabs{margin:30px}.ws-ls-inner-form p{font-size:1em;margin-bottom:5px}.ws_ls_title{margin-top:0!important;margin-bottom:15px!important}.we-ls-weight-form{width:100%}.we-ls-datepicker,.we-ls-weight-form input[type=number],.we-ls-weight-form input[type=text],.we-ls-weight-form select,.we-ls-weight-form textarea,.ws-ls-select{width:98%!important;border:1px solid #c1c1c1;transition:box-shadow .3s,border .3s;padding:0 0 0 5px}.we-ls-datepicker.focus,.we-ls-weight-form input[type=number].focus,.we-ls-weight-form input[type=text].focus,.we-ls-weight-form select.focus,.ws-ls-select.focus,.ws-ls-user-delete-all select,.ws-ls-user-pref-form input,.ws-ls-user-pref-form select{border:1px solid #707070;box-sizing:content-box!important}.we-ls-weight-form .we-ls-datepicker,.we-ls-weight-form .ws-ls-select,.we-ls-weight-form input[type=number],.we-ls-weight-form input[type=text],.we-ls-weight-form select,.ws-ls-user-delete-all select,.ws-ls-user-pref-form input,.ws-ls-user-pref-form select{height:30px}.ws-ls-user-delete-all select,.ws-ls-user-pref-form select{width:100%;margin-bottom:20px}.ws-ls-user-pref-form form{margin-bottom:20px}.we-ls-weight-form textarea{padding:5px}.ws-ls-error-summary{width:100%;padding-left:30px;color:red;display:none}.ws-ls-error-summary ul{width:100%;padding:0;margin:0 0 10px}.ws-ls-error-text{color:red;font-weight:700}.ws-ls-notice{font-weight:700}.ws-ls-success{color:green}.dataTables_filter input{width:100px;padding:0}.dataTables_filter,.dataTables_length{margin:10px}.ws-ls-table-options img{width:15px;height:15px}.ws-ls-advanced-data-table{table-layout:auto!important}.ws-ls-advanced-data-table th{padding:1px 1px 1px 3px!important}.ws-ls-hide{display:none!important}.ws-ls-notice-of-refresh{width:100%;text-align:center;margin-bottom:3px;font-size:.8em}
+.ws-ls-tabs
+{
+	margin:30px;
+}
+.ws-ls-inner-form p
+{
+  font-size: 1.0em;
+	margin-bottom: 5px;
+}
+.ws_ls_title
+{
+	margin-top: 0px !important;
+	margin-bottom: 15px !important;
+
+}
+.we-ls-weight-form
+{
+	width: 100%;
+
+}
+.we-ls-weight-form input[type=number], .we-ls-weight-form input[type=text], .we-ls-weight-form textarea, .we-ls-weight-form select,
+.we-ls-datepicker, .ws-ls-select
+{
+	width:98% !important;
+	border: solid 1px #c1c1c1;
+	transition: box-shadow 0.3s, border 0.3s;
+    padding: 0px 0px 0px 5px;
+}
+.we-ls-weight-form input[type=number].focus, .we-ls-weight-form input[type=text].focus, .we-ls-weight-form select.focus,
+.we-ls-datepicker.focus, .ws-ls-select.focus, .ws-ls-user-pref-form input, .ws-ls-user-pref-form select, .ws-ls-user-delete-all select {
+  border: solid 1px #707070;
+    box-sizing: content-box !important;
+}
+.we-ls-weight-form input[type=number], .we-ls-weight-form input[type=text], .we-ls-weight-form select, .we-ls-weight-form .we-ls-datepicker,
+.we-ls-weight-form .ws-ls-select, .ws-ls-user-pref-form input, .ws-ls-user-pref-form select, .ws-ls-user-delete-all select
+{
+	height: 30px;
+}
+.we-ls-weight-form input[type=number], .we-ls-weight-form input[type=text], .we-ls-weight-form select, .we-ls-weight-form .we-ls-datepicker, .we-ls-weight-form .ws-ls-select,
+ .ws-ls-user-pref-form input, .ws-ls-user-pref-form select, .ws-ls-user-delete-all select
+{
+	height: 30px;
+
+}
+.ws-ls-user-pref-form select, .ws-ls-user-delete-all select
+{
+  width:100%;
+	margin-bottom: 20px;
+}
+ .ws-ls-user-pref-form form
+{
+	margin-bottom: 20px;
+}
+.we-ls-weight-form textarea
+{
+	padding:5px;
+}
+.ws-ls-error-summary
+{
+	width: 100%;
+	padding-left: 30px;
+	color: red;
+	display:none;
+}
+.ws-ls-error-summary ul
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+.ws-ls-error-text
+{
+  color: red;
+  font-weight: bold;
+}
+.ws-ls-notice
+{
+	font-weight: bold;
+}
+.ws-ls-success
+{
+    color: green;
+}
+
+.dataTables_filter input
+{
+	width: 100px;
+	padding:0px;
+}
+.dataTables_length
+{
+	margin: 10px
+}
+.dataTables_filter
+{
+	margin: 10px
+}
+
+.ws-ls-table-options img
+{
+	width: 15px;
+	height: 15px;
+}
+.ws-ls-advanced-data-table
+{
+	table-layout: auto !important;
+}
+.ws-ls-advanced-data-table th
+{
+	padding: 1px 1px 1px 3px !important;
+}
+.ws-ls-hide
+{
+	display: none !important;
+}
+.ws-ls-notice-of-refresh
+{
+	width: 100%;
+	text-align: center;
+	margin-bottom:3px;
+	font-size:0.8em;
+}
+.ws-ls-loading
+{
+    width: 16px;
+    height: 16px;
+    background-image: url(images/ajax-loader.gif);
+}

@@ -1,0 +1,12 @@
+.ws-ls-disabled *
+{
+  color: #CCCCCC !important;
+}
+.ws-ls-disabled th::after {
+    content: "\A(Pro version)";
+    color: red;
+    font-weight: bold;
+    clear: both;
+    width:100%;
+    white-space: pre;
+}

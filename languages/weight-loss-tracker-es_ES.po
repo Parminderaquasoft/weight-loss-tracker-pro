@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-08-17 14:42-0000\n"
+"PO-Revision-Date: 2015-09-14 10:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: C:/www/wordpress_test/wp-content/plugins/weight-loss-"
+"tracker\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:11
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permisos para accesar a ésta página."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:33
+msgid " Instructions"
+msgstr "Instrucciones"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:35
+msgid ""
+"Place the tag [weightlosstracker] on a given page and the user is presented "
+"with a form to enter a date, weight and notes for that entry. When the "
+"person saves their entry the data table and graph is refreshed."
+msgstr ""
+"Colocar la etiqueta [weightlosstracker] en una página determinada y el "
+"usuario se presenta con un formulario para introducir una fecha, peso y "
+"notas de esa entrada. Cuando la persona guarda su entrada el cuadro de datos "
+"y la gráfica se actualiza."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:42
+msgid " Settings"
+msgstr "Ajustes"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:56
+msgid "Weight Units"
+msgstr "Unidades Peso"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:59
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:200
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:245
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:325
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:387
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:625
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:960
+msgid "Kg"
+msgstr "Kg"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:60
+msgid "Stones & Pounds"
+msgstr "Piedras y libras"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:61
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:197
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:242
+msgid "Pounds"
+msgstr "Libras"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:63
+msgid ""
+"You can specify whether to display weights in Kg, Stones & Pounds or just "
+"Pounds. Please note: The graph will be displayed in Pounds if \"Stones & "
+"Pounds\" is selected."
+msgstr ""
+"Usted puede especificar si desea mostrar los pesos en Kg, piedras y libras o "
+"sólo libras. Nota: el gráfico se mostrará en libras si se selecciona "
+"\"Piedras & libras\"."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:67
+msgid "Allow target weights?"
+msgstr "¿Permiten pesos de destino?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:70
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:81
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:91
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:101
+msgid "No"
+msgstr "No"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:71
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:80
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:92
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:102
+msgid "Yes"
+msgstr "Si"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:73
+msgid ""
+"If enabled, a user is allowed to enter a target weight. This will be "
+"displayed as a horizontal bar on the line chart."
+msgstr ""
+"Si está activado, un usuario puede introducir un peso objetivo. Esto se "
+"mostrará como una barra horizontal en el gráfico de líneas."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:77
+msgid "Display points on graph?"
+msgstr "Mostrar los puntos en el grafíco?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:84
+msgid "If enabled, \"Allows points and labels to be displayed on graph."
+msgstr ""
+"Si está habilitado, permite puntos y etiquetas para visualizarse en el "
+"gráfico."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:88
+msgid "Display data in tabs?"
+msgstr "Mostrar informacion en las peestañas"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:94
+msgid ""
+"If enabled, \"Weight History\" and \"Target Weight\" will be displayed on "
+"sepearate tabs."
+msgstr ""
+"Si está habilitado, \"Historia de peso\" y \"Peso del destino\" se mostrará "
+"en sepearate tabs."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:98
+msgid "Enable support for Avada theme?"
+msgstr "¿Habilitar el soporte para el tema del Avada?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:104
+msgid ""
+"Enables additional styling to support the <a href=\"http://theme-fusion.com/"
+"avada/\" target=\"_blank\">Avada theme</a>."
+msgstr ""
+"Permite un estilo adicional apoyar el <a href=\"http://theme-fusion.com/"
+"avada/\" target=\"_blank\">tema Avada</a>."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:122
+msgid "Delete existing data"
+msgstr "Borrar los datos existentes"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:124
+msgid "Remove ALL user data"
+msgstr "Eliminar todos los datos de usuario"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/general/admin_page.php:125
+msgid ""
+"You can use the following button to remove all user data currently stored by "
+"the plugin. <strong>All weight entries for every user will be lost!</strong>"
+msgstr ""
+"Puede utilizar el siguiente botón para eliminar todos los datos del usuario "
+"almacenados actualmente por el plugin. <strong> Todas las entradas de peso "
+"para cada usuario se perderán! </ strong>"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:19
+msgid "You need to be logged in to record your weight."
+msgstr "Tienes que estar conectado para registrar su peso."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:30
+msgid "Saved!"
+msgstr "Guardado!"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:52
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:65
+msgid "In a chart"
+msgstr "En el gráfico"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:53
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:95
+msgid "Weight History"
+msgstr "Historial de Peso"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:76
+msgid "A pretty graph shall appear once you have recorded several weights."
+msgstr "Un gráfico muy aparecerá una vez que ha grabado varios pesos."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:141
+msgid "View all weeks"
+msgstr "Ver todas las semanas"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:154
+msgid "View Week"
+msgstr "Ver Semanas"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:154
+msgid "to"
+msgstr "para"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:179
+msgid "Target Weight"
+msgstr "Peso deseado"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:186
+msgid "Your current target is"
+msgstr "Tu peso deseado acrual es"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:188
+msgid "Currently, you haven't specified a target weight."
+msgstr "Actualmente, tu no has especificado un peso deseado"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:195
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:240
+msgid "Stones"
+msgstr "Stones"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:200
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:245
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:348
+msgid "Weight"
+msgstr "Peso"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:206
+msgid "Update Target"
+msgstr "Actualización de destino"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:230
+msgid "Add a new weight"
+msgstr "Añadir un nuevo peso"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:249
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:349
+msgid "Notes"
+msgstr "Notass"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:254
+msgid "Save Entry"
+msgstr "Guardar entrada"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:322
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:328
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:365
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:387
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:622
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:628
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:951
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:955
+msgid "lbs"
+msgstr "lbs"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:328
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:628
+msgid "St"
+msgstr "St"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:347
+msgid "Date"
+msgstr "Fecha"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:365
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcodes.php:955
+msgid "st"
+msgstr "st"

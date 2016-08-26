@@ -1,0 +1,466 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-10-27 08:58-0000\n"
+"PO-Revision-Date: 2015-10-27 08:58-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: C:\\www\\wordpress_test\\wp-content\\plugins\\weight-"
+"loss-tracker\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:17
+msgid "Date"
+msgstr "Date"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:18
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:60
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:219
+msgid "Weight"
+msgstr "Vægt"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:19
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:227
+msgid "Notes"
+msgstr "Noter"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:55
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:66
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:74
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:195
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:201
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-various.php:168
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-various.php:172
+msgid "lbs"
+msgstr "lbs"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:55
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:219
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:70
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:198
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-various.php:177
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:86
+msgid "Kg"
+msgstr "Kg"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:77
+#, fuzzy
+msgid "Target"
+msgstr "Your current target is"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:174
+msgid "Target Weight"
+msgstr "Målvægt"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:176
+msgid "Add a new weight"
+msgstr "Tilføj en ny vægt"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:203
+#, fuzzy
+msgid "Your target weight is"
+msgstr "Tillad målvægt?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:211
+msgid "Stones"
+msgstr "Stones"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:212
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:215
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:88
+msgid "Pounds"
+msgstr "Pounds"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:232
+#, fuzzy
+msgid "Set Target"
+msgstr "Opdater Mål"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:232
+msgid "Save Entry"
+msgstr "Gem indtastning"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:327
+msgid "Please enter a between 1-14 for pounds"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:327
+msgid "Please enter a valid figure for pounds"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:334
+msgid "Please enter a valid figure for Kg"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:335
+msgid "Please enter a valid figure for Stones"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/core.php:336
+msgid "Please enter a valid date"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:74
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:201
+msgid "St"
+msgstr "St"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:113
+msgid "The following MySQL tables are missing for this plugin"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:260
+msgid "View all weeks"
+msgstr "Se alle uger"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:274
+msgid "View Week"
+msgstr "Se uge"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/functions.php:274
+msgid "to"
+msgstr "til"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/hooks.php:8
+#, fuzzy
+msgid "Settings"
+msgstr " Settings"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/hooks.php:11
+msgid "Manage User Data"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/hooks.php:12
+msgid "Get Pro Version"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-various.php:172
+msgid "st"
+msgstr "st"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:10
+msgid "You need to be logged in to record your weight."
+msgstr "Du skal være logget ind for at registrere din egen vægt"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:10
+msgid "Login now"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:19
+msgid "Saved!"
+msgstr "Gemt!"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:21
+msgid "An error occurred while saving your data!"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:45
+msgid "Overview"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:45
+#, fuzzy
+msgid "Chart / Add Weight"
+msgstr "Målvægt"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:46
+msgid "In Detail"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:46
+#, fuzzy
+msgid "View all recorded weights"
+msgstr "Se alle uger"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:56
+msgid "In a chart"
+msgstr "I et diagram"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:61
+msgid "A pretty graph shall appear once you have recorded several weights."
+msgstr "En fin graf vil blive vist når du har indtastet flere vægtresultater."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/includes/shortcode-weight-loss-tracker.php:87
+msgid "Weight History"
+msgstr "Vægt Historik"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:10
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:8
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Du har ikke tilstrækkelige tilladelser til at få adgang til denne side."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:30
+msgid "Get "
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:32
+msgid ""
+"We are shortly releasing a pro version of this plugin. We aim to keep the "
+"price under &pound;30 and have the following features"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:34
+#, php-format
+msgid "Show your interest now and get 25% off when released"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:35
+msgid "Seeing the level of interest will help motivate me to develop it!"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:39
+msgid "Features of Pro version"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.pro.advertise.php:41
+msgid "Below is a list of the intended features of the Pro version:"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:39
+msgid "Rebuild them now"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:60
+msgid " Instructions"
+msgstr "Vejledning"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:62
+#, fuzzy
+msgid ""
+"Place the tag [weight-loss-tracker] on a given page and the user is "
+"presented with a form to enter a date, weight and notes for that entry. When "
+"the person saves their entry the data table and graph is refreshed."
+msgstr ""
+"Place the tag [weightlosstracker] on a given page and the user is presented "
+"with a form to enter a date, weight and notes for that entry. When the "
+"person saves their entry the data table and graph is refreshed."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:69
+msgid " Settings"
+msgstr " Indstillinger"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:83
+msgid "Weight Units"
+msgstr "Vægtenheder"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:87
+msgid "Stones & Pounds"
+msgstr "Stones & Pounds"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:90
+msgid ""
+"You can specify whether to display weights in Kg, Stones & Pounds or just "
+"Pounds. Please note: The graph will be displayed in Pounds if \"Stones & "
+"Pounds\" is selected."
+msgstr ""
+"Du kan vælge om du vil have vægten vist i Kg, Stones & Pounds eller kun "
+"Pound. Bemærk hvis der vælges Stones & Pounds vil grafen vises i Pound."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:94
+msgid "Allow target weights?"
+msgstr "Tillad målvægt?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:97
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:118
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:150
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:160
+msgid "No"
+msgstr "Nej"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:98
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:117
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:151
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:161
+msgid "Yes"
+msgstr "Ja"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:100
+msgid ""
+"If enabled, a user is allowed to enter a target weight. This will be "
+"displayed as a horizontal bar on the line chart."
+msgstr ""
+"Hvis denne er aktiveret kan brugeren indtaste et vægtmål. Dette vil blive "
+"vist som en horisontal linje på grafen"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:104
+msgid "UK or US Date format?"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:107
+msgid "UK (DD/MM/YYYY)"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:108
+msgid "US (MM/DD/YYYY)"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:110
+msgid "Specify what format dates should be displayed in (i.e. UK or US format)"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:114
+msgid "Display points on graph?"
+msgstr "Vis punkter på grafen?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:121
+msgid "If enabled, \"Allows points and labels to be displayed on graph."
+msgstr "Hvis denne er aktiveret vises punkter og tekster på grafen."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:125
+msgid "Graph: Weight colour?"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:128
+msgid ""
+"If enabled, enter a HEX colour code to use for the Weight history line on "
+"graph."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:132
+msgid "Graph: Weight fill colour?"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:135
+msgid ""
+"If enabled, enter a HEX colour code to use forthe shading underneath the "
+"Weight history line on graph. Line charts only."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:139
+msgid "Graph: Target line colour?"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:142
+msgid ""
+"If enabled, enter a HEX colour code to use for the Target line on graph."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:147
+msgid "Display data in tabs?"
+msgstr "Vis data i faneblade?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:153
+msgid ""
+"If enabled, \"Weight History\" and \"Target Weight\" will be displayed on "
+"sepearate tabs."
+msgstr ""
+"Hvis denne er aktiveret vises \"Vægt Historik\" og \"Målvægt\" på hver sit "
+"faneblad."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:157
+msgid "Enable support for Avada theme?"
+msgstr "Aktiver understøttelse af Avada temaet?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:163
+msgid ""
+"<strong style=\"color:red\">Deprecated. This feature will very shortly be "
+"removed from the plugin and is currently no longer supported</strong>. "
+"Enables additional styling to support theAvada theme</a>."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:181
+msgid "Delete existing data"
+msgstr "Slet eksisterende data"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:183
+msgid "Remove ALL user data"
+msgstr "Slet ALLE brugerdata"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:184
+msgid ""
+"You can use the following button to remove all user data currently stored by "
+"the plugin. <strong>All weight entries for every user will be lost!</strong>"
+msgstr ""
+"Du kan bruge denne knap til at slette alle brugerdata som i øjeblikket er "
+"gemt af plugin'et. <strong>Alle data fra alle brugere vil blive slettet!</"
+"strong>"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:205
+msgid "Are you sure you?"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pages/page.settings.php:206
+msgid "Are you sure you wish to remove all user data?"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:6
+msgid ""
+"<strong>Widgets.</strong> Widgets that allow you to display the graph and "
+"quick weight entry form within any widget area."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:7
+msgid ""
+"<strong>Chart and form Shortcodes.</strong> That allow you to display the "
+"graph and quick weight entry form by placing a shortcode on any post or page."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:8
+msgid ""
+"<strong>Text Shortcodes.</strong> Additional shortcodes for earliest and "
+"most recent dates entered."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:9
+msgid ""
+"<strong>Admin: View / Edit user data</strong>. Admin will be able to view, "
+"edit and delete existing user data."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:10
+msgid ""
+"<strong>User can choose Unit</strong>. The user will be allowed to select "
+"which unit they wish to store their weight in Metric or Imperial."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:11
+msgid ""
+"<strong>Bar Charts</strong>. Fancy something different to a line chart? The "
+"plugin will also support Bar Charts."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:12
+msgid ""
+"<strong>Decimals</strong>. Decimals will be allowed weight in Pounds only or "
+"Kg modes."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:13
+msgid ""
+"<strong>Delete existing entry</strong>. A logged in user will be able to "
+"delete an existing weight entry."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:14
+msgid ""
+"<strong>Better Tables.</strong>. Data tables in front end and admin will "
+"support paging and sorting."
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker/pro-features/pro.php:15
+msgid ""
+"<strong>Admin: Extra Settings</strong>. Extra settings to customise the "
+"plugin will be added e.g. number of plot points on graph, rows per page, etc."
+msgstr ""
+
+#~ msgid ""
+#~ "Enables additional styling to support the <a href=\"http://theme-fusion."
+#~ "com/avada/\" target=\"_blank\">Avada theme</a>."
+#~ msgstr ""
+#~ "Aktiverer yderligere styling for at understøtte <a href=\"http://theme-"
+#~ "fusion.com/avada/\" target=\"_blank\">Avada temaet</a>."
+
+#~ msgid "Your current target is"
+#~ msgstr "Dit nuværende mål er"
+
+#~ msgid "Currently, you haven't specified a target weight."
+#~ msgstr "Du har i øjeblikket ikke intastet et vægtmål."

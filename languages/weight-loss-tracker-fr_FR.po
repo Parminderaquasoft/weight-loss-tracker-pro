@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-10-27 08:59-0000\n"
+"PO-Revision-Date: 2015-10-27 09:00-0000\n"
+"Last-Translator: Alex\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: C:\\www\\wordpress_test\\wp-content\\plugins\\weight-"
+"loss-tracker\\includes\n"
+"X-Poedit-SearchPathExcluded-0: C:\\www\\wordpress_test\\wp-content\\plugins"
+"\\weight-loss-tracker\\includes/js\n"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:17
+msgid "Date"
+msgstr "Date"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:18
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:60
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:219
+msgid "Weight"
+msgstr "Poids"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:19
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:227
+msgid "Notes"
+msgstr "Remarques"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:55
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:66
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:74
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:195
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:201
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-various.php:168
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-various.php:172
+msgid "lbs"
+msgstr "lbs"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:55
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:219
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:70
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:198
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-various.php:177
+msgid "Kg"
+msgstr "Kg"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:77
+#, fuzzy
+msgid "Target"
+msgstr "Allow target weights?"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:174
+#, fuzzy
+msgid "Target Weight"
+msgstr "Målvægt"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:176
+msgid "Add a new weight"
+msgstr "Ajouter un nouveau poids"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:203
+msgid "Your target weight is"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:211
+msgid "Stones"
+msgstr "Stones"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:212
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:215
+msgid "Pounds"
+msgstr "Livres"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:232
+msgid "Set Target"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:232
+msgid "Save Entry"
+msgstr "Enregistrer"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:327
+msgid "Please enter a between 1-14 for pounds"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:327
+msgid "Please enter a valid figure for pounds"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:334
+msgid "Please enter a valid figure for Kg"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:335
+msgid "Please enter a valid figure for Stones"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/core.php:336
+msgid "Please enter a valid date"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:74
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:201
+msgid "St"
+msgstr "St"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:113
+msgid "The following MySQL tables are missing for this plugin"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:260
+#, fuzzy
+msgid "View all weeks"
+msgstr "Se alle uger"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:274
+#, fuzzy
+msgid "View Week"
+msgstr "Se uge"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/functions.php:274
+msgid "to"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/hooks.php:8
+#, fuzzy
+msgid "Settings"
+msgstr " Indstillinger"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/hooks.php:11
+msgid "Manage User Data"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/hooks.php:12
+msgid "Get Pro Version"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-various.php:172
+msgid "st"
+msgstr "st"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:10
+msgid "You need to be logged in to record your weight."
+msgstr "Vous devez être connecté pour enregistrer votre poids."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:10
+msgid "Login now"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:19
+msgid "Saved!"
+msgstr "Inscrit!"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:21
+msgid "An error occurred while saving your data!"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:45
+msgid "Overview"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:45
+msgid "Chart / Add Weight"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:46
+msgid "In Detail"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:46
+msgid "View all recorded weights"
+msgstr ""
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:56
+msgid "In a chart"
+msgstr "Dans un graphique"
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:61
+msgid "A pretty graph shall appear once you have recorded several weights."
+msgstr ""
+"Un joli graphique doit apparaître ici après que vous avez enregistré "
+"plusieurs poids."
+
+#: C:\www\wordpress_test\wp-content\plugins\weight-loss-tracker\includes/shortcode-weight-loss-tracker.php:87
+msgid "Weight History"
+msgstr "Poids Histoire"
